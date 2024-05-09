@@ -1,3 +1,36 @@
 * {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Urbanist, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  button {
+    background: none;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+
+  .border-gradient {
+    border: 10px solid;
+    border-radius: 80px;
+    background: linear-gradient(45deg, red, blue) border-box;
+    /*3*/
+    -webkit-mask:
+      /*4*/
+      linear-gradient(#fff 0 0) padding-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    /*5'*/
+    mask-composite: exclude;
+    /*5*/
+    border-image-slice: 1;
+    padding: 8px;
+    border-width: 2px;
+    color: black !important;
+  }
+
+  .border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-radius: 50px;
+  }
 }
