@@ -1,7 +1,8 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
-import Experience from './components/Experience.tsx'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
 import './index.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Hero />
       <Experience />
+      <Projects />
     </>
   )
 }
