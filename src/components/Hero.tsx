@@ -44,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="col-span-6 border border-black">
-                    <img style={{ width: '100%' }} src="profile.png" alt="logo" />
+                    <img style={{ width: '100%' }} src="mainprofile.png" alt="logo" />
                 </div>
             </div>
         </div>
