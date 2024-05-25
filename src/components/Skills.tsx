@@ -13,7 +13,7 @@ const Skills = () => {
             <p className="m-5">
                 Presenting my skill set: a dynamic toolbox poised to elevate any project!
             </p>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-20 m-10">
                 <div className="flex flex-col items-center">
                     <img src="swift.png" alt="Swift" className="w-40 h-40" />
                     <p>Swift</p>
