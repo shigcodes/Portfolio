@@ -17,8 +17,8 @@ const Experience = () => {
             <p className="m-5">
                 Explore my work experience and let's discover the potential for collaboration.
             </p>
-            <div className="grid grid-cols-12 gap-4 relative" style={{ width: '80%' }}>
-                <div className="col-span-5 flex flex-col items-center border border-black">
+            <div className="grid grid-cols-12 gap-4 relative m-10" style={{ width: '80%' }}>
+                <div className="col-span-5 flex flex-col items-center ">
                     <div className="mb-8">
                         <h1 className="text-2xl">New York, United States</h1>
                         <p className="text-sm text-gray-400">September 2023 – April 2024</p>
@@ -32,13 +32,13 @@ const Experience = () => {
                         <p className="text-sm text-gray-400">May 2020 – July 2021</p>
                     </div>
                 </div>
-                <div className="col-span-2 flex flex-col items-center justify-between relative border border-black">
-                    <div className="w-8 h-8 bg-blue-500 rounded-full border-2 border-dashed mb-8 z-10"></div>
+                <div className="col-span-2 flex flex-col items-center justify-between relative">
+                    <div className="w-8 h-8 bg-purple-500 rounded-full border-2 border-dashed mb-8 z-10"></div>
                     <div className="w-8 h-8 bg-black rounded-full border-2 border-dashed mb-8 z-10"></div>
-                    <div className="w-8 h-8 bg-blue-500 rounded-full border-2 border-dashed z-10"></div>
+                    <div className="w-8 h-8 bg-purple-500 rounded-full border-2 border-dashed z-10"></div>
                     <div className="h-full w-0.5 border-l-2 border-dashed border-gray-500 absolute" style={{ top: '0', left: '50%', transform: 'translateX(-50%)' }}></div>
                 </div>
-                <div className="col-span-5 flex flex-col items-center border border-black">
+                <div className="col-span-5 flex flex-col items-center">
                     <div className="mb-8">
                         <h1 className="text-2xl">iOS Frontend Developer</h1>
                         <p className="text-sm text-gray-400">Lickability</p>

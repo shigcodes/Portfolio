@@ -18,14 +18,14 @@ const Projects = () => {
             title: "EduPulse",
             description: "An intuitive online learning platform designed for pioneering a new approach to digital literacy.",
             tools: ["Photoshop"],
-            image: "placeholder-image-url",
+            image: "ep.png",
             category: "Web Design"
         },
         {
             title: "A&P Auto Care",
             description: "A cutting-edge carwash web design, with a sleek and intuitive user interface for effortless navigation and booking.",
             tools: ["Photoshop", "Illustrator"],
-            image: "placeholder-image-url",
+            image: "ap.png",
             category: "Web Design"
         }
     ];
@@ -41,10 +41,10 @@ const Projects = () => {
                 lineHeight: '1.2',
                 marginBottom: '10px'
             }}>Projects</h1> <hr style={{ border: '1px solid black', width: '300px' }} />
-            <p>
+            <p className="m-5">
                 Here's a glimpse into the cool projects I've had the pleasure to work on. Dive in and explore!
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8" style={{ width: '90%' }}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 m-10" style={{ width: '90%' }}>
                 {projectData.map((project, index) => (
                     <div key={index} className="relative bg-white shadow-lg rounded-lg overflow-hidden">
                         <img src={project.image} alt={project.title} className="w-full h-58 object-cover" />
