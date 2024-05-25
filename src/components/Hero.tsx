@@ -34,12 +34,19 @@ const Hero = () => {
                             }}>
                                 My Resume <i className="fas fa-arrow-right" style={{ marginLeft: '10px' }}></i>
                             </button>
-                            <div className="on-dark">
-                                <button className="border-gradient border-gradient-purple rounded-full" style={{ borderRadius: '20px', color: 'black' }}>
-                                    I have a gradient
-                                </button>
-                            </div>
-
+                            <button style={{
+                                borderRadius: '50px',
+                                background: 'white',
+                                color: 'black',
+                                padding: '10px 40px',
+                                border: '2px solid',
+                                borderImage: 'linear-gradient(to right, #687DF6, #8156E0) 1',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center'
+                            }}>
+                                Say Hello
+                            </button>
                         </div>
                     </div>
                 </div>
