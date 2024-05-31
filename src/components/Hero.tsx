@@ -1,9 +1,9 @@
 const Hero = () => {
     return (
-        <div className="flex justify-center items-center">
-            <div className="grid grid-cols-12 border-b border-black flex justify-between flex-row" style={{ width: '90%' }}>
-                <div className="col-span-6 border border-black flex flex-col justify-center p-5">
-                    <div className="border border-black">
+        <div className="flex justify-center items-center m-10">
+            <div className="grid grid-cols-12 flex justify-between flex-row" style={{ width: '90%' }}>
+                <div className="col-span-12 md:col-span-6 flex flex-col justify-center p-5">
+                    <div>
                         <h1 style={{
                             fontSize: '50px',
                             fontWeight: '500'
@@ -19,9 +19,10 @@ const Hero = () => {
                         }}>Shigrid Ann</h1>
                         <p style={{
                             fontSize: '16px',
-                            fontWeight: '200'
+                            fontWeight: '200',
+                            padding: '10px 0'
                         }}>Philippine-based UI/UX and Software Developer with a passion for crafting unforgettable digital experiences. Let's collaborate to build the web of tomorrow, one pixel at a time!</p>
-                        <div className="flex justify-center">
+                        <div className="flex justify-start p-3">
                             <button style={{
                                 borderRadius: '50px',
                                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
@@ -30,20 +31,30 @@ const Hero = () => {
                                 border: '2px solid',
                                 display: 'flex',
                                 alignItems: 'center',
-                                justifyContent: 'center'
+                                justifyContent: 'center',
+                                marginRight: '20px'
                             }}>
                                 My Resume <i className="fas fa-arrow-right" style={{ marginLeft: '10px' }}></i>
                             </button>
-                            <div className="on-dark">
-                                <button className="border-gradient border-gradient-purple rounded-full" style={{ borderRadius: '20px', color: 'black' }}>
-                                    I have a gradient
-                                </button>
-                            </div>
+                            <button style={{
+                                borderRadius: '50px',
+                                background: 'transparent',
+                                color: '#8156E0',
+                                padding: '10px 40px',
+                                border: '2px solid #8156E0',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontSize: '16px',
+                                fontWeight: '500'
+                            }}>
+                                Say Hello
+                            </button>
 
                         </div>
                     </div>
                 </div>
-                <div className="col-span-6">
+                <div className="col-span-6 hidden md:block">
                     <img style={{ width: '100%' }} src="mainprofile.png" alt="logo" />
                 </div>
             </div>

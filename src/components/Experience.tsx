@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center m-10">
             <h1 className="text-4xl" style={{
                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
                 WebkitBackgroundClip: 'text',
@@ -20,7 +20,7 @@ const Experience = () => {
             <div className="grid grid-cols-12 gap-4 relative m-10" style={{ width: '80%' }}>
                 <div className="col-span-5 flex flex-col items-center ">
                     <div className="mb-8">
-                        <h1 className="text-2xl">New York, United States</h1>
+                        <h1 className="text-2xl">New York, USA</h1>
                         <p className="text-sm text-gray-400">September 2023 – April 2024</p>
                     </div>
                     <div className="mb-8">
@@ -33,9 +33,9 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="col-span-2 flex flex-col items-center justify-between relative">
-                    <div className="w-8 h-8 bg-purple-500 rounded-full border-2 border-dashed mb-8 z-10"></div>
+                    <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }}></div>
                     <div className="w-8 h-8 bg-black rounded-full border-2 border-dashed mb-8 z-10"></div>
-                    <div className="w-8 h-8 bg-purple-500 rounded-full border-2 border-dashed z-10"></div>
+                    <div className="w-8 h-8 rounded-full border-2 border-dashed z-10" style={{ backgroundColor: '#6A7CF5' }}></div>
                     <div className="h-full w-0.5 border-l-2 border-dashed border-gray-500 absolute" style={{ top: '0', left: '50%', transform: 'translateX(-50%)' }}></div>
                 </div>
                 <div className="col-span-5 flex flex-col items-center">

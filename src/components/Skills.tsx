@@ -15,27 +15,27 @@ const Skills = () => {
             </p>
             <div className="grid grid-cols-3 gap-20 m-10">
                 <div className="flex flex-col items-center">
-                    <img src="swift.png" alt="Swift" className="w-40 h-40" />
+                    <img src="swift.png" alt="Swift" className="sm:w-40 sm:h-auto" />
                     <p>Swift</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="swiftui.png" alt="SwiftUI" className="w-40 h-40" />
+                    <img src="swiftui.png" alt="SwiftUI" className="sm:w-40 sm:h-auto" />
                     <p>SwiftUI</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="react.png" alt="React" className="w-40 h-40" />
+                    <img src="react.png" alt="React" className="sm:w-40 sm:h-auto" />
                     <p>React</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="html.png" alt="HTML" className="w-40 h-40" />
+                    <img src="html.png" alt="HTML" className="sm:w-40 sm:h-auto" />
                     <p>HTML</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="css.png" alt="CSS" className="w-40 h-40" />
+                    <img src="css.png" alt="CSS" className="sm:w-40 sm:h-auto" />
                     <p>CSS</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="javascript.png" alt="JavaScript" className="w-40 h-40" />
+                    <img src="javascript.png" alt="JavaScript" className="sm:w-40 sm:h-auto" />
                     <p>JavaScript</p>
                 </div>
             </div>

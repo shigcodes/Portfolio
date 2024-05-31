@@ -31,7 +31,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className=" flex flex-col items-center justify-center text-center">
+        <div className=" flex flex-col items-center justify-center text-center m-10">
             <h1 className="text-4xl" style={{
                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
                 WebkitBackgroundClip: 'text',
@@ -58,7 +58,7 @@ const Projects = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className="absolute bottom-4 right-4 bg-purple-500 text-white rounded-full p-2">
+                        <div className="absolute bottom-4 right-4 text-white rounded-full p-2" style={{ backgroundColor: '#6A7CF5' }}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                             </svg>
@@ -69,4 +69,4 @@ const Projects = () => {
         </div>
     )
 }
-export default Projects
+export default Projects;

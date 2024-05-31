@@ -1,6 +1,6 @@
 const Tools = () => {
     return (
-        <div className=" flex flex-col items-center justify-center text-center">
+        <div className=" flex flex-col items-center justify-center text-center m-10">
             <h1 className="text-4xl" style={{
                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
                 WebkitBackgroundClip: 'text',
@@ -15,27 +15,27 @@ const Tools = () => {
             </p>
             <div className="grid grid-cols-3 gap-20 m-10">
                 <div className="flex flex-col items-center">
-                    <img src="figma.png" alt="Swift" className="w-40 h-40" />
+                    <img src="figma.png" alt="Swift" className="sm:w-40 sm:h-auto" />
                     <p>Figma</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="photoshop.png" alt="SwiftUI" className="w-40 h-40" />
+                    <img src="photoshop.png" alt="SwiftUI" className="sm:w-40 sm:h-auto" />
                     <p>Adobe Photoshop</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="illustrator.png" alt="React" className="w-40 h-40" />
+                    <img src="illustrator.png" alt="React" className="sm:w-40 sm:h-auto" />
                     <p>Adobe Illustrator</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="canva.png" alt="HTML" className="w-40 h-40" />
+                    <img src="canva.png" alt="HTML" className="sm:w-40 sm:h-auto" />
                     <p>Canva</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="vscode.png" alt="CSS" className="w-40 h-40" />
+                    <img src="vscode.png" alt="CSS" className="sm:w-40 sm:h-auto" />
                     <p>VS Code</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src="xcode.png" alt="JavaScript" className="w-40 h-40" />
+                    <img src="xcode.png" alt="JavaScript" className="sm:w-40 sm:h-auto" />
                     <p>Xcode</p>
                 </div>
             </div>
