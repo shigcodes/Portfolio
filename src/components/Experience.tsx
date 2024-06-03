@@ -1,8 +1,10 @@
 import React from 'react';
 
 const Experience = () => {
+
     return (
-        <div className="flex flex-col items-center justify-center text-center m-10">
+        <div id='experience' style={{ paddingTop: '50px' }}  data-aos="fade-up">
+        <div className="flex flex-col items-center justify-center text-center m-30">
             <h1 className="text-4xl" style={{
                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
                 WebkitBackgroundClip: 'text',
@@ -10,7 +12,8 @@ const Experience = () => {
                 fontSize: '50px',
                 fontWeight: '500',
                 lineHeight: '1.2',
-                marginBottom: '10px'
+                marginBottom: '10px',
+                marginTop: '50px'
             }}>Experience
             </h1>
             <hr style={{ border: '1px solid black', width: '300px' }} />
@@ -53,6 +56,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

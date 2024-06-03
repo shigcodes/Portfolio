@@ -31,6 +31,7 @@ const Projects = () => {
     ];
 
     return (
+        <div id='projects' style={{ paddingTop: '50px' }} data-aos="fade-left">
         <div className=" flex flex-col items-center justify-center text-center m-10">
             <h1 className="text-4xl" style={{
                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
@@ -39,7 +40,8 @@ const Projects = () => {
                 fontSize: '50px',
                 fontWeight: '500',
                 lineHeight: '1.2',
-                marginBottom: '10px'
+                marginBottom: '10px',
+                marginTop: '50px'
             }}>Projects</h1> <hr style={{ border: '1px solid black', width: '300px' }} />
             <p className="m-5">
                 Here's a glimpse into the cool projects I've had the pleasure to work on. Dive in and explore!
@@ -66,6 +68,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
+        </div>
         </div>
     )
 }

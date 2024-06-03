@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the CSS styles for AOS to work properly
+
 import './App.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
@@ -8,14 +11,26 @@ import Tools from './components/Tools'
 import About from './components/About'
 import Contact from './components/Contact'
 
+AOS.init();
+
+
 import './index.css'
 
-function App() {
+
+import { useEffect } from 'react';
+
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
   return (
     <>
       <NavBar />
-      <Hero />
+      <Hero/>
       <Experience />
       <Projects />
       <Skills />
