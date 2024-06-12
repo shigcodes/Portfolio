@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // Define the Project interface
 interface Project {
@@ -51,7 +51,7 @@ const Projects = () => {
 
     const handleBackClick = () => {
         setSelectedProject(null);
-        setIframeSrc(null); 
+        setIframeSrc(null);
     };
 
     const toggleIframe = (link: string) => {
@@ -70,20 +70,20 @@ const Projects = () => {
                         border: 'none',
                         width: '80%',
                         height: '80vh',
-                        zIndex: 1000, 
+                        zIndex: 1000,
                         borderRadius: '10px'
                     }}></iframe>
                     <button onClick={handleBackClick} style={{
                         position: 'fixed',
                         top: '10%',
                         left: '10%',
-                        zIndex: 1001, 
+                        zIndex: 1001,
                         backgroundColor: '#6A7CF5',
                         color: 'white',
                         padding: '10px',
-                        width: '50px', 
-                        height: '50px', 
-                        borderRadius: '0', 
+                        width: '50px',
+                        height: '50px',
+                        borderRadius: '0',
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
