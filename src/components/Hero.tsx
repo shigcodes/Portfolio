@@ -46,15 +46,15 @@ const Hero = () => {
     };
 
     return (
-        <div className="flex justify-center items-center" style={{ height: '100vh' }} data-aos="fade-up">
+        <div className="flex justify-center items-center" style={{ height: '100vh' }} data-aos="fade-down">
             <div className="grid grid-cols-12 flex justify-between flex-row" style={{ width: '90%' }}>
-                <div className="col-span-12 md:col-span-6 flex flex-col justify-center p-5">
+                <div className="col-span-12 md:col-span-6 flex flex-col justify-center p-5 ">
                     <div>
                         <h1 style={{
                             fontSize: '50px',
                             fontWeight: '500',
                             marginTop: '10px'
-                        }}>Hello it's me,</h1>
+                        }}>Hello it's me,</h1 >
                         <div style={{
                             height: '72px', // Fixed height to accommodate the largest text
                             overflow: 'hidden' // Prevents text overflow
@@ -79,6 +79,7 @@ const Hero = () => {
                             <button
                                 onMouseEnter={() => setResumeButtonHover(true)}
                                 onMouseLeave={() => setResumeButtonHover(false)}
+                                className="hover:scale-110 transition-transform duration-300 ease-in-out"
                                 style={{
                                     borderRadius: '50px',
                                     background: resumeButtonHover ? 'linear-gradient(to right, #8156E0, #687DF6)' : 'linear-gradient(to right, #687DF6, #8156E0)',
@@ -95,6 +96,13 @@ const Hero = () => {
                             <button
                                 onMouseEnter={() => setHelloButtonHover(true)}
                                 onMouseLeave={() => setHelloButtonHover(false)}
+                                className="hover:scale-110 transition-transform duration-300 ease-in-out"
+                                onClick={() => {
+                                    const contactSection = document.getElementById('contact');
+                                    if (contactSection) {
+                                        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                    }
+                                }}
                                 style={{
                                     borderRadius: '50px',
                                     background: helloButtonHover ? '#8156E0' : 'transparent',
@@ -114,6 +122,7 @@ const Hero = () => {
                             onMouseEnter={() => setScrollButtonHover(true)}
                             onMouseLeave={() => setScrollButtonHover(false)}
                             onClick={scrollToTop}
+                            className="scale-100 hover:scale-125 transition-transform duration-300 ease-in-out"
                             style={{
                                 position: 'fixed',
                                 bottom: '20px',
@@ -129,9 +138,9 @@ const Hero = () => {
                                 border: 'none',
                                 cursor: 'pointer',
                                 boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                                zIndex: 1000
+                                zIndex: 10000
                             }}>
-                            <i className="fas fa-arrow-up"></i>
+                            <i className="fas fa-arrow-up" ></i>
                         </button>
                     </div>
                 </div>

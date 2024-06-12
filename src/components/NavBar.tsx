@@ -1,6 +1,16 @@
 import { useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+ 
 
 const NavBar = () => {
+   useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleNavClick = (sectionId: string) => {
@@ -8,6 +18,9 @@ const NavBar = () => {
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
       setIsOpen(false);
+      setTimeout(() => {
+        AOS.refresh(); 
+      }, 1000);  
     }
   };
 
@@ -26,32 +39,32 @@ const NavBar = () => {
         aria-expanded={isOpen}
       >
         {isOpen ? (
+          // This is the close icon (X) shown when isOpen is true
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         ) : (
+          // This is the hamburger menu icon shown when isOpen is false
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         )}
       </button>
-      {isOpen && (
-        <div className="flex flex-col items-end justify-start fixed top-0 right-0 p-4 bg-white shadow-md z-50">
-          <button onClick={toggleMenu} className="self-end">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-          <a onClick={() => handleNavClick('experience')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Experience</a>
-          <a onClick={() => handleNavClick('projects')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Projects</a>
-          <a onClick={() => handleNavClick('skills')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Skills</a>
-          <a onClick={() => handleNavClick('tools')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Tools</a>
-          <a onClick={() => handleNavClick('about')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">About</a>
-          <a onClick={() => handleNavClick('contact')} className="cursor-pointer text-gray-600 hover:text-purple-700 p-5">Contact</a>
-        </div>
-      )}
+      <div className={`flex flex-col items-end justify-start fixed top-0 right-0 p-4 bg-white shadow-md z-50 transition-opacity duration-500 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+      <button onClick={toggleMenu} className="self-end">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+        <a onClick={() => handleNavClick('experience')} className="cursor-pointer block mt-4 md:inline-block md:mt-0 text-gray-600 hover:text-purple-700 mb-4 p-5 " >Experience</a>
+        <a onClick={() => handleNavClick('projects')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Projects</a>
+        <a onClick={() => handleNavClick('skills')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Skills</a>
+        <a onClick={() => handleNavClick('tools')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">Tools</a>
+        <a onClick={() => handleNavClick('about')} className="cursor-pointer text-gray-600 hover:text-purple-700 mb-4 p-5">About</a>
+        <a onClick={() => handleNavClick('contact')} className="cursor-pointer text-gray-600 hover:text-purple-700 p-5">Contact</a>
+      </div>
       <div className={`hidden md:flex flex-column items-center w-auto`}>
-        <a onClick={() => handleNavClick('experience')} className="cursor-pointer  text-gray-600 hover:text-purple-700 mr-4 p-5">Experience</a>
+        <a onClick={() => handleNavClick('experience')} className="cursor-pointer block mt-4 md:inline-block md:mt-0 text-gray-600 hover:text-purple-700 mr-4 p-5">Experience</a>
         <a onClick={() => handleNavClick('projects')} className="cursor-pointer block mt-4 md:inline-block md:mt-0 text-gray-600 hover:text-purple-700 mr-4 p-5">Projects</a>
         <a onClick={() => handleNavClick('skills')} className="cursor-pointer block mt-4 md:inline-block md:mt-0 text-gray-600 hover:text-purple-700 mr-4 p-5">Skills</a>
         <a onClick={() => handleNavClick('tools')} className="cursor-pointer block mt-4 md:inline-block md:mt-0 text-gray-600 hover:text-purple-700 mr-4 p-5">Tools</a>

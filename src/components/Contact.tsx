@@ -17,44 +17,44 @@ const Contact = () => {
                 <p className="m-5">
                     Reach out and let's craft a path of creativity and success for your next big project!
                 </p>
-                <div className="flex flex-wrap justify-center md:space-x-4 p-5">
+                <div className="flex flex-wrap justify-center md:space-x-4 p-5 ">
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="linkedin.png" alt="LinkedIn" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded" style={{ backgroundColor: '#6A7CF5' }}>View LinkedIn</button>
+                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View LinkedIn</button>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="gmail.png" alt="Gmail" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded " style={{ backgroundColor: '#6A7CF5' }}>Send me an Email</button>
+                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send me an Email</button>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="whatsapp.png" alt="Whatsapp" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded " style={{ backgroundColor: '#6A7CF5' }}>Send a Message</button>
+                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send a Message</button>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="instagram.png" alt="Instagram" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded" style={{ backgroundColor: '#6A7CF5' }}>View Instagram</button>
+                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View Instagram</button>
                     </div>
                 </div>
                 <footer className="bg-purple-500 text-white py-4 w-full text-center p-5" style={{ backgroundColor: '#6A7CF5', width: '100%' }}>
                     <div className="flex justify-center space-x-4 mt-4 m-3">
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} size="lg" />
                         </a>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faFacebook} size="lg" />
                         </a>
-                        <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.github.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} size="lg" />
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} size="lg" />
                         </a>
                     </div >

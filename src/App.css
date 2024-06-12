@@ -24,19 +24,6 @@ body {
     border-radius: 2rem;
   }
 
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-
-  
-
-  .text-cursor {
-    border-right: 2px solid;
-    animation: blink 1s step-end infinite;
-  }
-
   .border-gradient-purple {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     border-radius: 50px;
@@ -55,8 +42,19 @@ body {
     position: relative;
     z-index: 1;
     width: 100vw;
-    height: 100vh;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
-  
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+  }
+
+
+
 }
