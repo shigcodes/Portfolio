@@ -1,7 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faFacebook, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { useState } from 'react';
 
 const Contact = () => {
+
+    const [scrollButtonHover, setScrollButtonHover] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo({ behavior: 'smooth', top: 0 });
+    };
     return (
         <div id='contact' style={{ paddingTop: '100px', paddingLeft: '0', paddingRight: '0' }}  data-aos="fade-down">
             <div className=" flex flex-col items-center justify-center text-center" style={{ width: '100%' }}>
@@ -42,6 +48,30 @@ const Contact = () => {
                         </div>
                         <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View Instagram</button>
                     </div>
+                    <button
+                            onMouseEnter={() => setScrollButtonHover(true)}
+                            onMouseLeave={() => setScrollButtonHover(false)}
+                            onClick={scrollToTop}
+                            className="scale-100 hover:scale-125 transition-transform duration-300 ease-in-out"
+                            style={{
+                                position: 'fixed',
+                                bottom: '20px',
+                                right: '20px',
+                                borderRadius: '50%',
+                                background: scrollButtonHover ? 'linear-gradient(to right, #8156E0, #687DF6)' : 'linear-gradient(to right, #687DF6, #8156E0)',
+                                color: 'white',
+                                width: '50px',
+                                height: '50px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                border: 'none',
+                                cursor: 'pointer',
+                                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                                zIndex: 1000,
+                            }}>
+                            <i className="fas fa-arrow-up" ></i>
+                        </button>
                 </div>
                 <footer className="bg-purple-500 text-white py-4 w-full text-center p-5" style={{ backgroundColor: '#6A7CF5', width: '100%' }}>
                     <div className="flex justify-center space-x-4 mt-4 m-3">

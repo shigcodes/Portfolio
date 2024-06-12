@@ -138,7 +138,7 @@ const Hero = () => {
                                 border: 'none',
                                 cursor: 'pointer',
                                 boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                                zIndex: 10000
+                                zIndex: 10000,
                             }}>
                             <i className="fas fa-arrow-up" ></i>
                         </button>
@@ -153,3 +153,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

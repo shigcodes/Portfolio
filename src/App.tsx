@@ -1,5 +1,5 @@
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import the CSS styles for AOS to work properly
+import 'aos/dist/aos.css'; 
 
 import './App.css'
 import NavBar from './components/NavBar'
