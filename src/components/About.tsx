@@ -20,7 +20,7 @@ const About = () => {
                         <div className="flex flex-col justify-center">
                             <div className="text-center">
                                 <h1 className="text-5xl font-bold">Shigrid Ann Docil</h1>
-                                <h2 className="font-medium p-3"> UI/UX Designer | Software Developer </h2>
+                                <h2 className="font-medium p-3"> UI/UX | Software Developer </h2>
                             </div>
                             <div className="text-left">
                                 <p className="text-lg m-10">

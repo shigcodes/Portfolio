@@ -39,6 +39,18 @@ const Skills = () => {
                         <img src="javascript.png" alt="JavaScript" className="sm:w-40 sm:h-auto" />
                         <p>JavaScript</p>
                     </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="typescript.png" alt="TypeScript" className="sm:w-40 sm:h-auto" />
+                        <p>TypeScript</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="tailwind.png" alt="Tailwind" className="sm:w-40 sm:h-auto" />
+                        <p>Tailwind</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="bootstrap.png" alt="Bootstrap" className="sm:w-40 sm:h-auto" />
+                        <p>Bootstrap</p>
+                    </div>
                 </div>
             </div>
         </div>
