@@ -4,7 +4,6 @@ const Hero = () => {
 
     const [resumeButtonHover, setResumeButtonHover] = useState(false);
     const [helloButtonHover, setHelloButtonHover] = useState(false);
-    const [scrollButtonHover, setScrollButtonHover] = useState(false);
     const [text, setText] = useState('');
     const fullName = 'Shigrid Ann';
     const [index, setIndex] = useState(0);
@@ -35,15 +34,6 @@ const Hero = () => {
             setSpeed(150);
         }
     }, [index, isDeleting]);
-
-    const scrollToTop = () => {
-        console.log("Attempting to scroll to top");
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        });
-    };
 
     return (
         <div className="flex justify-center items-center" style={{ height: '100vh' }} data-aos="fade-down">
@@ -96,7 +86,6 @@ const Hero = () => {
                             <button
                                 onMouseEnter={() => setHelloButtonHover(true)}
                                 onMouseLeave={() => setHelloButtonHover(false)}
-                                className="hover:scale-110 transition-transform duration-300 ease-in-out"
                                 onClick={() => {
                                     const contactSection = document.getElementById('contact');
                                     if (contactSection) {
@@ -118,30 +107,6 @@ const Hero = () => {
                                 Say Hello
                             </button>
                         </div>
-                        <button
-                            onMouseEnter={() => setScrollButtonHover(true)}
-                            onMouseLeave={() => setScrollButtonHover(false)}
-                            onClick={scrollToTop}
-                            className="scale-100 hover:scale-125 transition-transform duration-300 ease-in-out"
-                            style={{
-                                position: 'fixed',
-                                bottom: '20px',
-                                right: '20px',
-                                borderRadius: '50%',
-                                background: scrollButtonHover ? 'linear-gradient(to right, #8156E0, #687DF6)' : 'linear-gradient(to right, #687DF6, #8156E0)',
-                                color: 'white',
-                                width: '50px',
-                                height: '50px',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                border: 'none',
-                                cursor: 'pointer',
-                                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                                zIndex: 10000,
-                            }}>
-                            <i className="fas fa-arrow-up" ></i>
-                        </button>
                     </div>
                 </div>
                 <div className="col-span-6 hidden md:block">
@@ -153,4 +118,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

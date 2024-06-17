@@ -108,9 +108,9 @@ const Projects = () => {
                         <h2 className="text-4xl font-bold">{selectedProject.title}</h2>
                         <p className="text-gray-600">{selectedProject.description}</p>
                         <div className="mt-2">
-                            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{selectedProject.category}</span>
+                            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" style={{ fontSize: '12px' }}>{selectedProject.category}</span>
                             {selectedProject.tools.map((tool, toolIndex) => (
-                                <span key={toolIndex} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{tool}</span>
+                                <span key={toolIndex} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" style={{ fontSize: '12px' }}>{tool}</span>
                             ))}
                         </div>
                     </div>
@@ -133,21 +133,21 @@ const Projects = () => {
                             {projectData.map((project, index) => (
                                 <div key={index} className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
                                     <img src={project.image} alt={project.title} className="w-full h-58 object-cover" />
-                                    <div className="p-4 bsolute bottom-0 left-0 w-full">
-                                        <h2 className="text-xl font-bold">{project.title}</h2>
+                                    <div className="p-4">
+                                        <h2 className="text-xl font-bold mb-2">{project.title}</h2>
                                         <p className="text-gray-600">{project.description}</p>
                                         <div className="mt-2">
-                                            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{project.category}</span>
+                                            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" style={{ fontSize: '12px' }}>{project.category}</span>
                                             {project.tools.map((tool, toolIndex) => (
-                                                <span key={toolIndex} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{tool}</span>
+                                                <span key={toolIndex} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" style={{ fontSize: '12px' }}>{tool}</span>
                                             ))}
                                         </div>
-                                    </div>
-                                    <button onClick={() => toggleIframe(project.link)} className="absolute bottom-4 right-4 text-white rounded-full p-2 hover:scale-125 hover:bg-indigo-500 transition-transform duration-300 ease-in-out" style={{ backgroundColor: '#6A7CF5', transition: 'transform 0.3s ease-in-out, background-color 0.3s ease-in-out' }}>
+                                        <button onClick={() => toggleIframe(project.link)} className="absolute bottom-4 right-4 text-white rounded-full p-2 hover:scale-125 hover:bg-indigo-500 transition-transform duration-300 ease-in-out" style={{ backgroundColor: '#6A7CF5', transition: 'transform 0.3s ease-in-out, background-color 0.3s ease-in-out' }}>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:rotate-[-55deg] transition-transform duration-300 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
                                     </button>
+                                    </div>
                                 </div>
                             ))}
                         </div>

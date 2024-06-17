@@ -28,25 +28,33 @@ const Contact = () => {
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="linkedin.png" alt="LinkedIn" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View LinkedIn</button>
+                        <a href="https://www.linkedin.com/in/shigrid-ann-docil-67a53a216" target="_blank" rel="noopener noreferrer">
+                            <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View LinkedIn</button>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="gmail.png" alt="Gmail" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send me an Email</button>
+                        <a href="mailto:shigridanndocil11@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send me an Email</button>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="whatsapp.png" alt="Whatsapp" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send a Message</button>
+                        <a href="https://wa.me/+639777906854" target="_blank" rel="noopener noreferrer">
+                            <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>Send a Message</button>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center m-5">
                         <div className="w-24 h-24 flex items-center justify-center">
                             <img src="instagram.png" alt="Instagram" />
                         </div>
-                        <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View Instagram</button>
+                        <a href="https://www.instagram.com/shigcodes/" target="_blank" rel="noopener noreferrer">
+                            <button className="mt-2 text-white py-1 px-3 rounded hover:scale-105 duration-300" style={{ backgroundColor: '#6A7CF5' }}>View Instagram</button>
+                        </a>
                     </div>
                     <button
                             onMouseEnter={() => setScrollButtonHover(true)}
@@ -75,16 +83,16 @@ const Contact = () => {
                 </div>
                 <footer className="bg-purple-500 text-white py-4 w-full text-center p-5" style={{ backgroundColor: '#6A7CF5', width: '100%' }}>
                     <div className="flex justify-center space-x-4 mt-4 m-3">
-                        <a href="https://www.linkedin.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/shigrid-ann-docil-67a53a216/" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} size="lg" />
                         </a>
-                        <a href="https://www.facebook.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/shgrdann/" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faFacebook} size="lg" />
                         </a>
-                        <a href="https://www.github.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/shigcodes" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} size="lg" />
                         </a>
-                        <a href="https://www.instagram.com" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/shigcodes/" className="hover:scale-110 duration-300" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} size="lg" />
                         </a>
                     </div >
