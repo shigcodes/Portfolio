@@ -86,6 +86,7 @@ const Hero = () => {
                             <button
                                 onMouseEnter={() => setHelloButtonHover(true)}
                                 onMouseLeave={() => setHelloButtonHover(false)}
+                                className="hover:scale-110 transition-transform duration-300 ease-in-out"
                                 onClick={() => {
                                     const contactSection = document.getElementById('contact');
                                     if (contactSection) {
