@@ -28,14 +28,6 @@ const Skills = () => {
                         <p>React</p>
                     </div>
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
-                        <img src="html.png" alt="HTML" className="sm:w-40 sm:h-auto" />
-                        <p>HTML</p>
-                    </div>
-                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
-                        <img src="css.png" alt="CSS" className="sm:w-40 sm:h-auto" />
-                        <p>CSS</p>
-                    </div>
-                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
                         <img src="javascript.png" alt="JavaScript" className="sm:w-40 sm:h-auto" />
                         <p>JavaScript</p>
                     </div>
@@ -58,6 +50,14 @@ const Skills = () => {
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
                         <img src="express.png" alt="Express" className="sm:w-40 sm:h-auto" />
                         <p>Express</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="html.png" alt="HTML" className="sm:w-40 sm:h-auto" />
+                        <p>HTML</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="css.png" alt="CSS" className="sm:w-40 sm:h-auto" />
+                        <p>CSS</p>
                     </div>
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
                         <img src="wordpress.png" alt="WordPress" className="sm:w-40 sm:h-auto" />
