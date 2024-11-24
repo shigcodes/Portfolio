@@ -46,6 +46,14 @@ const Projects = () => {
             image: "ap.png",
             category: "Web Design",
             link: "https://beloved-service-573428.framer.app/"
+        },
+        {
+            title: "SafeSync",
+            description: "A full-stack website that centralizes crime reporting, management, and analysis, featuring role-based access for main and substation administrators.",
+            tools: ["Centralized System", "Crime Reporting"],
+            image: "safesync.png",
+            category: "Fullstack",
+            link: "https://safesync-rxs.onrender.com/"
         }
     ];
 
