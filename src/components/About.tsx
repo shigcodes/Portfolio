@@ -24,10 +24,10 @@ const About = () => {
                             </div>
                             <div className="text-left">
                                 <p className="text-lg m-10">
-                                    Welcome to my digital space! I'm Shigrid Ann, a BS Information Technology student with a deep passion for <span className="text-blue-500 font-bold">UI/UX</span> and <span className="text-purple-500 font-bold">Software Development</span>. I offer hands-on experience in frontend development and graphic design through freelance projects. With a solid foundation in UI/UX design, I bring practical skills in creating captivating user interfaces.
+                                    Welcome to my digital space! I'm Shigrid Ann, a BS Information Technology student with a deep passion for <span style={{ fontWeight: 'bold', color: '#8156E0' }}>UI/UX</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>Software Developer</span> and <span style={{ fontWeight: 'bold', color: '#8156E0' }}>SEO</span>.  I specialize in crafting engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Through various projects, I've gained hands-on experience in frontend development, graphic design, and implementing effective SEO strategies to enhance online presence and performance.
                                 </p>
                                 <p className="text-lg m-10">
-                                    I'm always open to new opportunities, collaborations, and conversations. Whether you have a project in mind or just want to connect over a shared interest, feel free to reach out. Eager to leverage this expertise to contribute effectively to your team and deliver exceptional digital solutions!
+                                I'm always open to new opportunities, collaborations, and conversations. Whether you have a project in mind or want to connect over shared interests, feel free to reach out. I'm excited to contribute my expertise to your team and deliver exceptional, optimized digital solutions!
                                 </p>
                             </div>
                         </div>

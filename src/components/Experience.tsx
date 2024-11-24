@@ -21,6 +21,10 @@ const Experience = () => {
                 </p>
                 <div className="grid grid-cols-12 gap-4 relative m-10" style={{ width: '80%' }} data-aos="fade-right">
                     <div className="col-span-5 flex flex-col items-center ">
+                    <div className="mb-8">
+                            <h1 className="text-2xl">Birmingham, United Kingdom</h1>
+                            <p className="text-sm text-gray-400">July 2024 – December 2024</p>
+                        </div>
                         <div className="mb-8">
                             <h1 className="text-2xl">New York, USA</h1>
                             <p className="text-sm text-gray-400">September 2022 – April 2024</p>
@@ -41,6 +45,10 @@ const Experience = () => {
                         <div className="h-full w-0.5 border-l-2 border-dashed border-gray-500 absolute" style={{ top: '0', left: '50%', transform: 'translateX(-50%)' }}></div>
                     </div>
                     <div className="col-span-5 flex flex-col items-center">
+                    <div className="mb-8">
+                            <h1 className="text-2xl">Visual UI Designer & SEO Editor</h1>
+                            <p className="text-sm text-gray-400">SMHQ Network</p>
+                        </div>
                         <div className="mb-8">
                             <h1 className="text-2xl">iOS Frontend Developer</h1>
                             <p className="text-sm text-gray-400">Lickability</p>

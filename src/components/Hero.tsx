@@ -63,8 +63,9 @@ const Hero = () => {
                             fontSize: '20px',
                             fontWeight: '400',
                             padding: '10px 0',
-                            marginBottom: '20px'
-                        }}>Philippine-based UI/UX and Software Developer with a passion for crafting unforgettable digital experiences. Let's collaborate to build the web of tomorrow, one pixel at a time!</p>
+                            marginBottom: '20px',
+                            marginTop: '30px'
+                        }}>Philippine-based <span style={{ fontWeight: 'bold', color: '#8156E0' }}>UI/UX</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>Software Developer</span> with technical experience in <span style={{ fontWeight: 'bold', color: '#8156E0' }}>SEO</span>. I specialize in creating engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Let’s innovate and elevate the web together!</p>
                         <div className="flex justify-start p-3">
                             <button
                                 onMouseEnter={() => setResumeButtonHover(true)}

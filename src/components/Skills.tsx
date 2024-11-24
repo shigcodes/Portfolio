@@ -14,7 +14,7 @@ const Skills = () => {
                 <p className="m-5">
                     Presenting my skill set: a dynamic toolbox poised to elevate any project!
                 </p>
-                <div className="grid grid-cols-3 gap-20 m-10">
+                <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-20 m-10">
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold ">
                         <img src="swift.png" alt="Swift" className="sm:w-40 sm:h-auto" />
                         <p>Swift</p>
@@ -50,6 +50,26 @@ const Skills = () => {
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
                         <img src="bootstrap.png" alt="Bootstrap" className="sm:w-40 sm:h-auto" />
                         <p>Bootstrap</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="nodejs.png" alt="Node.js" className="sm:w-40 sm:h-auto" />
+                        <p>Node.js</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="express.png" alt="Express" className="sm:w-40 sm:h-auto" />
+                        <p>Express</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="wordpress.png" alt="WordPress" className="sm:w-40 sm:h-auto" />
+                        <p>WordPress</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="ghl.png" alt="GoHighLevel" className="sm:w-40 sm:h-auto" />
+                        <p>Go High Level</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
+                        <img src="elementor.png" alt="Elementor" className="sm:w-40 sm:h-auto" />
+                        <p>Elementor</p>
                     </div>
                 </div>
             </div>

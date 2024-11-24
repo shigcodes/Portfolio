@@ -1,8 +1,8 @@
 const Tools = () => {
     return (
         <div id='tools' style={{ paddingTop: '100px' }}>
-            <div className="flex flex-col items-center justify-center text-center m-10" data-aos="fade-left">
-                <h1 className="text-4xl" style={{
+            <div className=" flex flex-col items-center justify-center text-center">
+            <h1 className="text-4xl" style={{
                     background: 'linear-gradient(to right, #687DF6, #8156E0)',
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent',
@@ -14,8 +14,8 @@ const Tools = () => {
                 <p className="m-5">
                     Take a look at the tools I rely on and discover how they shape my work.
                 </p>
-                <div className="grid grid-cols-3 gap-20 m-10">
-                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-20 m-10">
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold ">
                         <img src="figma.png" alt="Swift" className="sm:w-40 sm:h-auto" />
                         <p>Figma</p>
                     </div>
@@ -39,10 +39,29 @@ const Tools = () => {
                         <img src="xcode.png" alt="JavaScript" className="sm:w-40 sm:h-auto" />
                         <p>Xcode</p>
                     </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="wordpress.png" alt="WordPress" className="sm:w-40 sm:h-auto" />
+                        <p>WordPress</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="ghl.png" alt="GoHighLevel" className="sm:w-40 sm:h-auto" />
+                        <p>Go High Level</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="elementor.png" alt="Elementor" className="sm:w-40 sm:h-auto" />
+                        <p>Elementor</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="yoast.png" alt="Yoast" className="sm:w-40 sm:h-auto" />
+                        <p>Yoast</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="propertyfilter.png" alt="Property Filter" className="sm:w-40 sm:h-auto" />
+                        <p>Property Filter</p>
+                    </div>
                 </div>
             </div>
         </div>
-
     );
 };
 
