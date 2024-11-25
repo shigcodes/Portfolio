@@ -39,9 +39,10 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="col-span-2 flex flex-col items-center justify-between relative">
+                    <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }} ></div>
+                        <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10 bg-black"  ></div>
                         <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }} ></div>
-                        <div className="w-8 h-8 bg-black rounded-full border-2 border-dashed mb-8 z-10"></div>
-                        <div className="w-8 h-8 rounded-full border-2 border-dashed z-10" style={{ backgroundColor: '#6A7CF5' }}></div>
+                        <div className="w-8 h-8 rounded-full border-2 border-dashed z-10 bg-black" ></div>
                         <div className="h-full w-0.5 border-l-2 border-dashed border-gray-500 absolute" style={{ top: '0', left: '50%', transform: 'translateX(-50%)' }}></div>
                     </div>
                     <div className="col-span-5 flex flex-col items-center">
