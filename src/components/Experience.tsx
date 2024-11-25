@@ -23,7 +23,7 @@ const Experience = () => {
                     <div className="col-span-5 flex flex-col items-center ">
                     <div className="mb-8">
                             <h1 className="text-2xl">Birmingham, United Kingdom</h1>
-                            <p className="text-sm text-gray-400">July 2024 – December 2024</p>
+                            <p className="text-sm text-gray-400">July 2024 – November 2024</p>
                         </div>
                         <div className="mb-8">
                             <h1 className="text-2xl">New York, USA</h1>
