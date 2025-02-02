@@ -29,7 +29,7 @@ const Projects = () => {
             tools: ["Figma", "Photoshop", "Illustrator"],
             image: "av.png",
             category: "Web Design",
-            link: "https://adorable-travel-412785.framer.app/"
+            link: "https://astralverse.framer.website/"
         },
         {
             title: "FoodLine",
@@ -37,7 +37,7 @@ const Projects = () => {
             tools: ["Photoshop", "Figma", "Canva"],
             image: "fl.png",
             category: "Web Design",
-            link: "https://fresh-squircle-912146.framer.app/"
+            link: "https://foodline.framer.website/"
         },
         {
             title: "EduPulse",
@@ -45,7 +45,7 @@ const Projects = () => {
             tools: ["Photoshop", "Figma"],
             image: "ep.png",
             category: "Web Design",
-            link: "https://experienced-globe-602112.framer.app/"
+            link: "https://edupluse.framer.website/"
         },
         {
             title: "A&P Auto Care",
@@ -53,7 +53,7 @@ const Projects = () => {
             tools: ["Figma", "Photoshop", "Canva"],
             image: "ap.png",
             category: "Web Design",
-            link: "https://beloved-service-573428.framer.app/"
+            link: "https://apautocare.framer.website/"
         }
         
     ];
@@ -64,7 +64,7 @@ const Projects = () => {
     };
 
     const toggleIframe = (link: string) => {
-        setIframeSrc(link);
+        window.open(link, '_blank'); // Open link in a new tab
     }
 
     return (

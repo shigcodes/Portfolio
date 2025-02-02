@@ -1,7 +1,7 @@
 const Tools = () => {
     return (
         <div id='tools' style={{ paddingTop: '100px' }}>
-            <div className=" flex flex-col items-center justify-center text-center">
+            <div className=" flex flex-col items-center justify-center text-center" data-aos="fade-left">
             <h1 className="text-4xl" style={{
                     background: 'linear-gradient(to right, #687DF6, #8156E0)',
                     WebkitBackgroundClip: 'text',
