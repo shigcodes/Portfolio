@@ -51,6 +51,30 @@ const Skills = () => {
                         <img src="express.png" alt="Express" className="sm:w-40 sm:h-auto" />
                         <p>Express</p>
                     </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="laravel.png" alt="Laravel" className="sm:w-40 sm:h-auto" />
+                        <p>Laravel</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="vuejs.png" alt="Vue.js" className="sm:w-40 sm:h-auto" />
+                        <p>Vue.js</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="postgresql.png" alt="Postgresql" className="sm:w-40 sm:h-auto" />
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="mysql.png" alt="Mysql" className="sm:w-40 sm:h-auto" />
+                        <p>MySQL</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="inertia.png" alt="Inertia" className="sm:w-40 sm:h-auto" />
+                        <p>Inertia</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out hover:font-bold">
+                        <img src="mariadb.png" alt="Mariadb" className="sm:w-40 sm:h-auto" />
+                        <p>MariaDB</p>
+                    </div>
                     <div className="flex flex-col items-center hover:scale-105 transition-transform duration-300 hover:font-bold">
                         <img src="html.png" alt="HTML" className="sm:w-40 sm:h-auto" />
                         <p>HTML</p>

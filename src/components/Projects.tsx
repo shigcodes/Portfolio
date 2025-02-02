@@ -16,6 +16,14 @@ const Projects = () => {
 
     const projectData: Project[] = [
         {
+            title: "SafeSync",
+            description: "A full-stack web application that centralizes crime reporting, management, and analysis, featuring role-based access for main and substation administrators.",
+            tools: ["Centralized System", "Crime Reporting"],
+            image: "safesync.png",
+            category: "Fullstack",
+            link: "https://safesync-rxs.onrender.com/"
+        },
+        {
             title: "Astral Verse",
             description: "A dynamic web design platform allowing users to mint and share NFT creations effortlessly.",
             tools: ["Figma", "Photoshop", "Illustrator"],
@@ -46,15 +54,8 @@ const Projects = () => {
             image: "ap.png",
             category: "Web Design",
             link: "https://beloved-service-573428.framer.app/"
-        },
-        {
-            title: "SafeSync",
-            description: "A full-stack website that centralizes crime reporting, management, and analysis, featuring role-based access for main and substation administrators.",
-            tools: ["Centralized System", "Crime Reporting"],
-            image: "safesync.jpg",
-            category: "Fullstack",
-            link: "https://safesync-rxs.onrender.com/"
         }
+        
     ];
 
     const handleBackClick = () => {
