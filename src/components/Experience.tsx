@@ -59,7 +59,7 @@ const Experience = () => {
                             <p className="text-sm text-gray-400">Stackstream Dev Community</p>
                         </div>
                         <div>
-                            <h1 className="text-2xl">Freelance Graphic Designer</h1>
+                            <h1 className="text-2xl">Graphic Designer</h1>
                             <p className="text-sm text-gray-400">PHB Worx International Inc.</p>
                         </div>
                     </div>
