@@ -20,7 +20,7 @@ const Projects = () => {
             description: "A full-stack web application that centralizes crime reporting, management, and analysis, featuring role-based access for main and substation administrators.",
             tools: ["Centralized System", "Crime Reporting"],
             image: "safesync.png",
-            category: "Fullstack",
+            category: "Full-stack",
             link: "https://safesync-rxs.onrender.com/"
         },
         {

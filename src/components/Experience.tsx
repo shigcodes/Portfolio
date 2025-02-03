@@ -51,7 +51,7 @@ const Experience = () => {
                             <p className="text-sm text-gray-400">SMHQ Network</p>
                         </div>
                         <div className="mb-8">
-                            <h1 className="text-2xl">iOS Frontend Developer</h1>
+                            <h1 className="text-2xl">iOS Front-end Developer</h1>
                             <p className="text-sm text-gray-400">Lickability</p>
                         </div>
                         <div className="mb-8">
