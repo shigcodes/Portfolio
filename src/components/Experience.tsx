@@ -47,7 +47,7 @@ const Experience = () => {
                     </div>
                     <div className="col-span-5 flex flex-col items-center">
                     <div className="mb-8">
-                            <h1 className="text-2xl">Visual UI Designer & SEO Editor</h1>
+                            <h1 className="text-2xl">UI Designer & SEO Editor</h1>
                             <p className="text-sm text-gray-400">SMHQ Network</p>
                         </div>
                         <div className="mb-8">
