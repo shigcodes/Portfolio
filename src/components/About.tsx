@@ -24,7 +24,7 @@ const About = () => {
                             </div>
                             <div className="text-left">
                                 <p className="text-lg m-10">
-                                    Welcome to my digital space! I'm Shigrid Ann, with a deep passion for <span style={{ fontWeight: 'bold', color: '#8156E0' }}>Web Developer</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>Designer</span>.  I specialize in crafting engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Through various projects, I've gained hands-on experience in frontend development, graphic design, and implementing effective SEO strategies to enhance online presence and performance.
+                                    Welcome to my digital space! I'm Shigrid Ann, with a deep passion for <span style={{ fontWeight: 'bold', color: '#8156E0' }}>Web Development</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>UI/UX Design</span>.  I specialize in crafting engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Through various projects, I've gained hands-on experience in frontend development, graphic design, and implementing effective SEO strategies to enhance online presence and performance.
                                 </p>
                                 <p className="text-lg m-10">
                                 I'm always open to new opportunities, collaborations, and conversations. Whether you have a project in mind or want to connect over shared interests, feel free to reach out. I'm excited to contribute my expertise to your team and deliver exceptional, optimized digital solutions!
