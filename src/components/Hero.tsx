@@ -46,8 +46,8 @@ const Hero = () => {
                             marginTop: '10px'
                         }}>Hello it's me,</h1 >
                         <div style={{
-                            height: '72px', // Fixed height to accommodate the largest text
-                            overflow: 'hidden' // Prevents text overflow
+                            height: '72px', 
+                            overflow: 'hidden' 
                         }}>
                             <h1 className="text-4xl" style={{
                                 background: 'linear-gradient(to right, #687DF6, #8156E0)',
@@ -65,7 +65,7 @@ const Hero = () => {
                             padding: '10px 0',
                             marginBottom: '20px',
                             marginTop: '30px'
-                        }}>Philippine-based <span style={{ fontWeight: 'bold', color: '#8156E0' }}>UI/UX</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>Full-stack Developer</span> with technical experience in <span style={{ fontWeight: 'bold', color: '#8156E0' }}>SEO</span>. I specialize in creating engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Let’s innovate and elevate the web together!</p>
+                        }}>Philippine-based <span style={{ fontWeight: 'bold', color: '#8156E0' }}>Web Developer</span> and <span style={{ fontWeight: 'bold', color: '#687DF6' }}>Designer</span> with technical experience in <span style={{ fontWeight: 'bold', color: '#8156E0' }}>SEO</span>. I specialize in creating engaging, user-friendly digital experiences that are optimized for visibility, performance, and growth. Let’s innovate and elevate the web together!</p>
                         <div className="flex justify-start p-3">
                             <button
                                 onMouseEnter={() => setResumeButtonHover(true)}

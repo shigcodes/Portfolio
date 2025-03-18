@@ -25,19 +25,19 @@ const Projects = () => {
         },
         {
             title: "Astral Verse",
-            description: "A dynamic web design platform allowing users to mint and share NFT creations effortlessly.",
+            description: "A web design platform allowing users to mint and share NFT creations effortlessly.",
             tools: ["Figma", "Photoshop", "Illustrator"],
             image: "av.png",
             category: "Web Design",
             link: "https://astralverse.framer.website/"
         },
         {
-            title: "FoodLine",
-            description: "A user-friendly website designed for users to explore, order, and savor authentic Chinese cuisine with unparalleled ease.",
-            tools: ["Photoshop", "Figma", "Canva"],
-            image: "fl.png",
-            category: "Web Design",
-            link: "https://foodline.framer.website/"
+            title: "Milestones",
+            description: "A website that provides specialised occupational therapy support in the UK for individuals with ADHD, autism, sensory processing challenges, and other needs. ",
+            tools: ["Figma","Elementor","Photoshop", "Canva"],
+            image: "milestones.png",
+            category: "Website",
+            link: "https://milestonesot.framer.website/"
         },
         {
             title: "EduPulse",
@@ -54,7 +54,17 @@ const Projects = () => {
             image: "ap.png",
             category: "Web Design",
             link: "https://apautocare.framer.website/"
+        },
+        {
+            title: "FoodLine",
+            description: "A user-friendly website designed for users to explore, order, and savor authentic Chinese cuisine with unparalleled ease.",
+            tools: ["Photoshop", "Figma", "Canva"],
+            image: "fl.png",
+            category: "Web Design",
+            link: "https://foodline.framer.website/"
         }
+
+        
         
     ];
 
@@ -138,7 +148,7 @@ const Projects = () => {
                         <p className="m-5">
                             Here's a glimpse into the cool projects I've had the pleasure to work on. Dive in and explore!
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 m-10" style={{ width: '90%' }}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-14 mt-8 m-10" style={{ width: '80%' }}>
                             {projectData.map((project, index) => (
                                 <div key={index} className="relative bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
                                     <img src={project.image} alt={project.title} className="w-full h-58 object-cover" />

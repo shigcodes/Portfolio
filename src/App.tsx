@@ -10,6 +10,7 @@ import Skills from './components/Skills'
 import Tools from './components/Tools'
 import About from './components/About'
 import Contact from './components/Contact'
+import ScrollToTop from './components/ScrollToTop'
 
 AOS.init();
 
@@ -37,6 +38,7 @@ const App = () => {
       <Tools />
       <About />
       <Contact />
+      <ScrollToTop />
     </>
   )
 }
