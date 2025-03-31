@@ -21,7 +21,7 @@ const Experience = () => {
                 </p>
                 <div className="grid grid-cols-12 gap-4 relative m-10" style={{ width: '80%' }} data-aos="fade-right">
                     <div className="col-span-5 flex flex-col items-center ">
-                    <div className="mb-8">
+                        <div className="mb-8">
                             <h1 className="text-2xl">Birmingham, United Kingdom</h1>
                             <p className="text-sm text-gray-400">July 2024 – November 2024</p>
                         </div>
@@ -39,15 +39,15 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="col-span-2 flex flex-col items-center justify-between relative">
-                    <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }} ></div>
+                        <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }} ></div>
                         <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10 bg-black"  ></div>
                         <div className="w-8 h-8 rounded-full border-2 border-dashed mb-8 z-10" style={{ backgroundColor: '#6A7CF5' }} ></div>
                         <div className="w-8 h-8 rounded-full border-2 border-dashed z-10 bg-black" ></div>
                         <div className="h-full w-0.5 border-l-2 border-dashed border-gray-500 absolute" style={{ top: '0', left: '50%', transform: 'translateX(-50%)' }}></div>
                     </div>
                     <div className="col-span-5 flex flex-col items-center">
-                    <div className="mb-8">
-                            <h1 className="text-2xl">UI Designer & SEO Editor</h1>
+                        <div className="mb-8">
+                            <h1 className="text-2xl">UI Designer & Front-end Developer</h1>
                             <p className="text-sm text-gray-400">SMHQ Network</p>
                         </div>
                         <div className="mb-8">
